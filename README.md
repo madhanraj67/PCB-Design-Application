@@ -1,11 +1,12 @@
 # PCB-Design-Application
 # Aim
-
+To prepare the pcb-design application for the given circuit.
 
 # Software required
 Eagle
 
 # Procedure
+
 1.Open a new schematic file within your project.</br>
 2.Use the libraries provided in EAGLE or create custom libraries if necessary.</br>
 3.Place components onto the schematic sheet by using the 'Add' tool.</br>
@@ -25,38 +26,40 @@ Eagle
 # Theory
 
 
+A rain sensor alarm typically works by detecting the presence of raindrops and triggering an alarm or alert system. The theory behind its operation involves using a sensor to detect changes in conductivity, capacitance, or resistance caused by the presence of water.
 
+One common type of rain sensor uses a simple circuit with two conductive electrodes. When raindrops fall on the electrodes, they create a conductive path between them, changing the resistance or capacitance of the circuit. This change is detected by the sensor, which then activates the alarm or alert system.
 
-
-
-
-
-
+Another type of rain sensor uses an optical method, where an infrared LED emits light that is reflected back to a receiver. When raindrops are present, they scatter the light, reducing the intensity of the light received by the receiver. This change in light intensity is detected by the sensor, triggering the alarm.
 
 
 ### Working 
 
+Components:
 
-
-
-
+Raindrop sensor module
+Buzzer
+10kΩ resistor
+5V power supply
+The raindrop sensor module has a series of traces on its surface that change resistance when wet.
+When it starts to rain, the module becomes conductive, allowing current to flow from the +5V through the module to ground (GND).
+The 10kΩ resistor is used to limit the current to a safe value.
+When current flows through the module, it triggers the buzzer, producing an alarm sound.
 
 # Circuit Diagram
-
+![WhatsApp Image 2024-05-13 at 18 51 31_e3bb5a24](https://github.com/Iyalarasu1/PCB-Design-Application/assets/144870581/f85c6948-f31c-4a35-8138-fbe9b10345ab)
 
 
 # Output
 
-
-
 ### Schematic diagram
-
+![WhatsApp Image 2024-05-13 at 18 39 55_851619cb](https://github.com/Iyalarasu1/PCB-Design-Application/assets/144870581/03a2942c-9e3c-42f7-9709-76242ff52d58)
 
 
 ### Layout diagram
-
+![WhatsApp Image 2024-05-13 at 18 39 55_e78c464a](https://github.com/Iyalarasu1/PCB-Design-Application/assets/144870581/26dad029-fedf-4cfb-a4ae-ade03605230d)
 
 
 # Result
 
-
+Therefore PCB Design was successfully Completed
