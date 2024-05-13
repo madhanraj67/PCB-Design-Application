@@ -37,6 +37,7 @@ Another type of rain sensor uses an optical method, where an infrared LED emits 
 
 Components:
 
+
 Raindrop sensor module<br>
 Buzzer<br>
 10kΩ resistor<br>
