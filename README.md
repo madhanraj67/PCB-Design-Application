@@ -35,11 +35,13 @@ Another type of rain sensor uses an optical method, where an infrared LED emits 
 
 ### Working 
 
-## Components:
-Raindrop sensor module
-Buzzer
-10kΩ resistor
+Components:
+
+Raindrop sensor module<br>
+Buzzer<br>
+10kΩ resistor<br>
 5V power supply
+
 The raindrop sensor module has a series of traces on its surface that change resistance when wet.
 When it starts to rain, the module becomes conductive, allowing current to flow from the +5V through the module to ground (GND).
 The 10kΩ resistor is used to limit the current to a safe value.
